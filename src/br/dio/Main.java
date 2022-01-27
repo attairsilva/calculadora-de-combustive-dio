@@ -19,9 +19,9 @@ public class Main {
         System.out.println("Preço do combustive:");
         valorAbastecimento=(scan.nextInt());
 
-        System.out.println(carro1.getModelo());
-        System.out.println(carro1.getCor());
-        System.out.println(carro1.getCapacidadeTanque());
+        System.out.println("Modelo: " + carro1.getModelo());
+        System.out.println("Cor: " + carro1.getCor());
+        System.out.println("Capacidade do Tanque: " + carro1.getCapacidadeTanque());
         System.out.println("Total para completar o tanque: " + carro1.totalValorTanque(valorAbastecimento));
 
 /*
